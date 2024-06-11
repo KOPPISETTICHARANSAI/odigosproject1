@@ -13,9 +13,7 @@ body{
 .main{
 	width: 350px;
 	height: 500px;
-	background: transparent;
 	overflow: hidden;
-	background: url() no-repeat center/ cover;
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
@@ -71,8 +69,8 @@ button:hover{
 }
 .login{
 	height: 400px;
-	background: #672e2e;
-	/*border-radius: 60% / 10%;*/
+	/*background: #672e2e;
+	border-radius: 60% / 10%;*/
 	transform: translateY(40px);
 	transition: .8s ease-in-out;
 	width: 300px;
