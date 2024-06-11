@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/cricket app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+        <div class="main">  	
+            <input type="checkbox" id="chk" aria-hidden="true">
+                <div class="signup">
+                    <form  onsubmit="return validate()"action="login.html">
+                        <label for="chk" aria-hidden="true">Sign up</label>
+                        <input type="text" name="txt"id="uname1" placeholder="User name" required="">
+                        <input type="email" name="email" id="email1" placeholder="Email" required="">
+                        <input type="password" name="pswd"id ="passwrd1" placeholder="Password" required="">
+                        <button onclick="validate1()">Sign up</button>
+                    </form>
+                </div>
+                <script type="text/javascript">
+                    function validate1(){
+                        var username = document.getElementById("uname1");
+                        var username = document.getElementById("passwrd1");
+                        var username =document.getElementById("email1");
+                        if(username.value.trim() ==""|| password.value.trim() ==""||email.value.trim()==""){
+                            alert("NO blank values are allowed");
+                            return false;
+                        }
+                        else{
+                             true;
+                        }
+                    }
+                </script>
+
+
+
+    </body>
+    </html>
+  
